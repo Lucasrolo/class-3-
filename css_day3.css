@@ -1,0 +1,78 @@
+#h1{
+    color : forestgreen; 
+}
+
+#h2{
+    color : #008080;
+}
+
+#p{
+    color : rgb(68, 126, 174);  
+}
+
+
+
+.big{
+    padding: 10px;
+    width: 170px;
+    margin: 10px;
+    Float : left;
+}
+
+.left-block {
+    color: white;
+    padding: 10px;
+    width: 170px;
+    margin: 10px; 
+    Float : left;
+    border: 5px solid #000000;
+  }
+  
+  .right-block {
+    color: white;
+    padding: 10px;
+    width: 170px;
+    margin: 10px;
+    Float : left;
+    border: 5px solid #17212e;
+  }
+  
+  #div1 {
+    background-color: rgb(18, 151, 38);
+    height : 200px; 
+  }
+  #div2 {
+    background-color: blue;
+  }
+  #div3 {
+    background-color: rgb(237, 15, 122);
+    height : 300px;
+  }
+
+  #div4 {
+    background-color: rgb(235, 219, 42);
+  }
+
+  #div5 {
+    background-color: rgb(233, 118, 47);
+    height : 300px;
+  }
+
+  #div6 {
+    background-color: red;
+    height : 200px;
+  }
+  
+  #div7 {
+    background-color: blue;
+    height : 300px;
+  }
+  #div8 {
+    color: white;
+    height : 200px;
+    background-color: rgb(72, 36, 213);
+  }
+  #div9 {
+    background-color: rgb(131, 13, 121);
+  }
+  
