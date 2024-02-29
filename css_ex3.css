@@ -1,0 +1,41 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.head {
+    background-color: rgb(250, 225, 188);
+    border: 5px solid #000000;
+    flex: 1; 
+}
+
+.highlight {
+                background-color: yellow;
+            }
+            
+
+#aside{
+    display: flex;
+    flex: 1;
+}
+
+#sidebar {
+    background-color: rgb(244, 180, 173);
+    border: 5px solid #000000;
+    width: 30%;
+}
+
+#article {
+    background-color: rgb(180, 244, 173);
+    border: 5px solid #000000;
+    flex: 1;
+    padding: 20px;
+}
+
+#footer {
+    background-color: rgb(173, 175, 244);
+    border: 5px solid #000000;
+}

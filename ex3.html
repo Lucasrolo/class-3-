@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day_3</title>
+    <link rel="stylesheet" href="css_ex3.css">
+</head>
+
+<body>
+    <div class="head">
+        <header>Header1</header>
+    </div>
+
+    <div id="aside">
+    <div id="sidebar">
+        <h1>SideBar</h1>
+        <style>
+            h1 {
+                text-decoration: underline; /* Ajoute un soulignement */
+            }
+        </style>
+        <img src="data:image/png;base64,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" alt="Image"> 
+    </div>
+
+    <div id="article">
+        <article>
+            <main>content :</main>
+            <style>
+                .highlight {
+                    background-color: yellow; /* Couleur de surlignage */
+                }
+            </style>
+            The Lego Group (« Le groupe Lego »), ou Lego Group, est une entreprise danoise fabriquant des jeux dont la gamme de produits la plus connue est Lego. Ces jeux sont constitués de briques élémentaires à assembler.
+
+En 2022, Lego Groupe est l'un des cinq grands producteurs de jouets mondiaux, avec un chiffre d'affaires de près de 6 milliards de dollars.
+<span class="highlight">we love LEGO LEGO LEGO</span>
+        </article>
+    </div>
+
+</div>
+</body>
+
+<footer>
+    <div id="footer">
+        <h2>Footer</h2> 
+    </div>
+</footer>
+</html>
+
